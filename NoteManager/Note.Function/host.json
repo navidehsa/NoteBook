@@ -1,0 +1,24 @@
+{
+  "version": "2.0",
+  "logging": {
+    "applicationInsights": {
+      "samplingSettings": {
+        "isEnabled": true,
+        "excludedTypes": "Request"
+      },
+      "enableLiveMetricsFilters": true
+    },
+    "logLevel": {
+      "Function": "Information",
+      "Host.Results": "Information",
+      "Host.Aggregator": "Information",
+      "Host.Executor": "Information"
+    }
+  },
+  "functionTimeout": "00:10:00", // Set timeout if needed
+  "extensions": {
+    "http": {
+      "routePrefix": "api" // Set your desired route prefix
+    }
+  }
+}

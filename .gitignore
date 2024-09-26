@@ -9,3 +9,4 @@
 /NoteManager/.vs/NoteManager/DesignTimeBuild
 /NoteManager/.vs/NoteManager/config
 *.user
+/NoteManager/Note.Function/Properties
