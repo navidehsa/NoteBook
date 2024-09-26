@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/NoteManager/Note.Function.Tests/bin/Debug/net8.0
+/NoteManager/Note.Function.Tests/obj
+/NoteManager/.vs/NoteManager/FileContentIndex
+/NoteManager/.vs/NoteManager/v17
+/NoteManager/.vs/NoteManager/DesignTimeBuild
+/NoteManager/.vs/NoteManager/config
+*.user
